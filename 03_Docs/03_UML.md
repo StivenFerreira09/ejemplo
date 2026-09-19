@@ -43,13 +43,13 @@
 | RF-22 |  | Consultar a los entrenadores registrados y su detalle. |
 | RF-23 |  | Consultar qué entrenador está asignado a cada clase. |
 
-![Diagrama de casos de uso - Panel de Control](media/image5.jpg)
+![Diagrama de casos de uso - Panel de Control](media/05_image.jpg)
 
 | **RF** | **Módulo** | **Descripción** |
 | --- | --- | --- |
 | RF-24 | Módulo 5: Panel de Control | Mostrar un panel con: clientes activos, membresías activas/vencidas, membresías próximas a vencer y clases programadas. |
 
-![Diagrama de casos de uso - Autenticación y Permisos](media/image6.png)
+![Diagrama de casos de uso - Autenticación y Permisos](media/06_image.png)
 
 | **RF** | **Módulo** | **Descripción** |
 | --- | --- | --- |
@@ -60,36 +60,36 @@
 
 # 15. Diagrama de clases:
 
-![Diagrama de clases](media/diagrama_de_clases.drawio.png)
+![Diagrama de clases](media/07_image.png)
 
 # 16. Diagrama de secuencia:
 
 ## GESTIÓN DE CLIENTES:
 
-![Diagrama de secuencia - Gestión de Clientes](media/image8.png)
+![Diagrama de secuencia - Gestión de Clientes](media/08_image.png)
 
 ## GESTIÓN DE MEMBRESÍAS:
 
-![Diagrama de secuencia - Gestión de Clientes (detalle)](media/image9.png)
+![Diagrama de secuencia - Gestión de Clientes (detalle)](media/09_image.png)
 
 ## GESTIÓN DE CLASES:
 
-![Diagrama de secuencia - Gestión de Clases](media/image10.png)
+![Diagrama de secuencia - Gestión de Clases](media/10_image.png)
 
 ## GESTIÓN DE ENTRENADORES:
 
-![Diagrama de secuencia - Gestión de Entrenadores](media/image11.png)
+![Diagrama de secuencia - Gestión de Entrenadores](media/11_image.png)
 
 ## DASHBOARD Y REPORTES:
 
-![Diagrama de secuencia - Dashboard y Reportes](media/image12.png)
+![Diagrama de secuencia - Dashboard y Reportes](media/12_image.png)
 
 ## AUTENTICACIÓN Y PERMISOS:
 
-![Diagrama de secuencia - Autenticación y Permisos](media/image13.png)
+![Diagrama de secuencia - Autenticación y Permisos](media/13_image.png)
 
 # 17. Diagrama de actividades:
 
-![Diagrama de actividades](media/image14.png)
+![Diagrama de actividades](media/14_image.png)
 
 [Ver diagrama de actividades en Google Drive](https://drive.google.com/file/d/1INYt-NLiz86tPXzoBqL4U4n0PhBwj6iL/view?usp=drive_link)
