@@ -365,3 +365,4 @@ La integración futura con servicios externos dependerá del cumplimiento de req
 | RNF-06 | Seguridad | Bloqueo de cuenta tras múltiples intentos fallidos |
 | RNF-07 | Seguridad | Protección contra SQL Injection, XSS y CSRF |
 | RNF-08 | Seguridad | Aislamiento de datos entre clínicas (Multi-Tenant seguro) |
+ya entendi
