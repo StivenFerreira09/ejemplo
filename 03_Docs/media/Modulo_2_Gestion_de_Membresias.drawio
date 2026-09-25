@@ -1,0 +1,66 @@
+<mxfile host="app.diagrams.net" agent="Gemini">
+  <diagram id="diagram_2" name="Módulo 2: Gestión de Membresías">
+    <mxGraphModel dx="1136" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="boundary" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=32;horizontal=1;fontStyle=1;fontSize=15;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;collapsible=0;swimlaneLine=0;fontColor=#000000;align=center;" value="Módulo 2: Gestión de Membresías" vertex="1">
+          <mxGeometry height="600" width="670" x="240" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uc1" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e6e6e6;strokeColor=#666666;fontSize=13;fontColor=#000000;" value="Crear tipo de&#xa;membresía" vertex="1">
+          <mxGeometry height="60" width="220" x="50" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="uc2" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e6e6e6;strokeColor=#666666;fontSize=13;fontColor=#000000;" value="Consultar catálogo&#xa;de membresías" vertex="1">
+          <mxGeometry height="60" width="240" x="30" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="uc3" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e6e6e6;strokeColor=#666666;fontSize=13;fontColor=#000000;" value="Asignar membresía&#xa;a cliente" vertex="1">
+          <mxGeometry height="60" width="240" x="30" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="uc4" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e6e6e6;strokeColor=#666666;fontSize=13;fontColor=#000000;" value="Consultar estado de&#xa;membresías" vertex="1">
+          <mxGeometry height="60" width="250" x="25" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="uc5" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e6e6e6;strokeColor=#666666;fontSize=13;fontColor=#000000;" value="Renovar membresía" vertex="1">
+          <mxGeometry height="60" width="220" x="50" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="uc6" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e6e6e6;strokeColor=#666666;fontSize=13;fontColor=#000000;" value="Calcular fecha de&#xa;vencimiento" vertex="1">
+          <mxGeometry height="60" width="230" x="410" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_inc1" edge="1" parent="boundary" source="uc3" style="endArrow=open;endSize=10;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontSize=13;fontColor=#000000;strokeColor=#000000;strokeWidth=1.2;" target="uc6" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_inc2" edge="1" parent="boundary" source="uc5" style="endArrow=open;endSize=10;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontSize=13;fontColor=#000000;strokeColor=#000000;strokeWidth=1.2;" target="uc6" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_admin" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=13;fontColor=#000000;strokeColor=#000000;fillColor=none;strokeWidth=1.5;" value="Administrador" vertex="1">
+          <mxGeometry height="90" width="45" x="60" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_admin_recep" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=13;fontColor=#000000;strokeColor=#000000;fillColor=none;strokeWidth=1.5;align=center;" value="Administrador /&#xa;Recepcionista" vertex="1">
+          <mxGeometry height="90" width="45" x="50" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" edge="1" parent="1" source="actor_admin" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.2;" target="uc1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" edge="1" parent="1" source="actor_admin_recep" style="endArrow=none;html=1;rounded=0;curved=1;strokeColor=#000000;strokeWidth=1.2;" target="uc2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge3" edge="1" parent="1" source="actor_admin_recep" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.2;" target="uc3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" edge="1" parent="1" source="actor_admin_recep" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.2;" target="uc4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge5" edge="1" parent="1" source="actor_admin_recep" style="endArrow=none;html=1;rounded=0;curved=1;strokeColor=#000000;strokeWidth=1.2;" target="uc5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
