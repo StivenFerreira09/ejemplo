@@ -1,6 +1,8 @@
 # 14. Diagrama de casos de uso:
 
-![Diagrama de casos de uso - Gestión de Clientes](media/Modulo_1_Gestion_de_Clientes.drawio)
+![Diagrama de casos de uso - Gestión de Clientes](media/01_image.png)
+
+[Fuente editable (.drawio)](https://app.diagrams.net/#Uhttps://raw.githubusercontent.com/StivenFerreira09/ejemplo/main/03_Docs/media/Modulo_1_Gestion_de_Clientes.drawio)
 
 | **RF** | **Módulo** | **Descripción** |
 | --- | --- | --- |
