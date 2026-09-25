@@ -13,7 +13,9 @@
 | RF-05 |  | Cambiar el estado de un cliente (activo/inactivo), con confirmación previa. |
 | RF-06 |  | Consultar la membresía propia (tipo, estado y fecha de vencimiento). |
 
-![Diagrama de casos de uso - Gestión de Membresías](media/02_image.png)
+![Diagrama de casos de uso - Gestión de Clientes](media/02_image.png)
+
+[Fuente editable (.drawio)](https://app.diagrams.net/#Uhttps://raw.githubusercontent.com/StivenFerreira09/ejemplo/main/03_Docs/media/Modulo_2_Gestion_de_Membresias.drawio)
 
 | **RF** | **Módulo** | **Descripción** |
 | --- | --- | --- |
