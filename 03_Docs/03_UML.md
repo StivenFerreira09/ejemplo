@@ -1,6 +1,6 @@
 # 14. Diagrama de casos de uso:
 
-![Diagrama de casos de uso - Gestión de Clientes](media/01_image.png)
+![Diagrama de casos de uso - Gestión de Clientes](media/Modulo_1_Gestion_de_Clientes.drawio)
 
 | **RF** | **Módulo** | **Descripción** |
 | --- | --- | --- |
