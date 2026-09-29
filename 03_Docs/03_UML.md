@@ -15,7 +15,8 @@
 
 ![Diagrama de casos de uso - Gestión de Clientes](media/02_image.png)
 
-[Fuente editable (.drawio)](https://app.diagrams.net/#Uhttps://raw.githubusercontent.com/StivenFerreira09/ejemplo/main/03_Docs/media/Modulo_2_Gestion_de_Membresias.drawio)
+[Fuente editable (.drawio)](https://app.diagrams.net/#Uhttps://raw.githubusercontent.com/StivenFerreira09/ejemplo/main/03_Docs/media/02_Diagrama_Modulo_Gestion_de_Membresias.drawio)
+
 
 | **RF** | **Módulo** | **Descripción** |
 | --- | --- | --- |
@@ -26,6 +27,9 @@
 | RF-11 |  | Renovar la membresía de un cliente, extendiendo el vencimiento desde la fecha actual, con confirmación. |
 
 ![Diagrama de casos de uso - Gestión de Clases](media/03_image.png)
+
+[Fuente editable (.drawio)](https://app.diagrams.net/#Uhttps://raw.githubusercontent.com/StivenFerreira09/ejemplo/main/03_Docs/media/03_Diagrama_Modulo_Gestion_de_Clases.drawio)
+
 
 | **RF** | **Módulo** | **Descripción** |
 | --- | --- | --- |
@@ -40,6 +44,9 @@
 
 ![Diagrama de casos de uso - Gestión de Entrenadores](media/04_image.png)
 
+[Fuente editable (.drawio)](https://app.diagrams.net/#Uhttps://raw.githubusercontent.com/StivenFerreira09/ejemplo/main/03_Docs/media/04_Diagrama_Modulo_Gestion_de_Entrenadores.drawio)
+
+
 | **RF** | **Módulo** | **Descripción** |
 | --- | --- | --- |
 | RF-20 | Módulo 4: Gestión de Entrenadores | Registrar un entrenador con su información básica. |
@@ -49,11 +56,17 @@
 
 ![Diagrama de casos de uso - Panel de Control](media/05_image.jpg)
 
+[Fuente editable (.drawio)](https://app.diagrams.net/#Uhttps://raw.githubusercontent.com/StivenFerreira09/ejemplo/main/03_Docs/media/05_Diagrama_Modulo_Panel_de_Control.drawio)
+
+
 | **RF** | **Módulo** | **Descripción** |
 | --- | --- | --- |
 | RF-24 | Módulo 5: Panel de Control | Mostrar un panel con: clientes activos, membresías activas/vencidas, membresías próximas a vencer y clases programadas. |
 
 ![Diagrama de casos de uso - Autenticación y Permisos](media/06_image.png)
+
+[Fuente editable (.drawio)](https://app.diagrams.net/#Uhttps://raw.githubusercontent.com/StivenFerreira09/ejemplo/main/03_Docs/media/06_Diagrama_Modulo_Autenticacion_y_Permisos.drawio)
+
 
 | **RF** | **Módulo** | **Descripción** |
 | --- | --- | --- |
